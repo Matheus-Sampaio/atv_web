@@ -12,30 +12,27 @@
     <header>
         <!-- Header Navbar -->
         <nav class="navbar">
-              <a href="?page=home"><img id="logo" src="img/logo.jpg" alt="logo"></a>
-
-                <form class="search">
-                  <input class="" type="text" placeholder="Procurar.....">
-                  <button class="btn" type="submit"><img class="searchicon" src="img/Search.png" alt="procurar"></button>
-                </form>
-                <a href="# ">
-                  <img class="icon" src="img/message.png" alt="Mensagem">
+              <a href="?page=home" id="logo"><img class="logo-img" src="img/logo.jpg" alt="logo"></a>
+              <form class="search">
+                <input class="" type="text" placeholder="Procurar.....">
+                <button class="btn" type="submit"><img class="search-icon" src="img/Search.png" alt="procurar"></button>
+              </form>
+              <a href="#" id="message">
+                <img class="icon" src="img/message.png" alt="Mensagem">
+              </a>
+              <a href="#" id="cart">
+                <img class="icon" src="img/cart.png" alt="Carrinho de Compras">
+              </a>
+              <span id="usuario" class="nav-item dropdown">
+                <a class="usuario-img nav-link dropdown-toggle dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img class="icon" src="img/user.png" alt="Usuário">
                 </a>
-                <a href="">
-                  <img class="icon" src="img/cart.png" alt="Carrinho de Compras">
-                </a>
-                <span class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle dropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img class="icon" src="img/user.png" alt="Usuário"></a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                      <a class="dropdown-item" href="#">Logar-se</a>
-                      <a class="dropdown-item" href="#">Cadastrar-se</a>
-                    </div>
-                  </span>
-
-        </nav>
-          
-        
-        
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Logar-se</a>
+                  <a class="dropdown-item" href="#">Cadastrar-se</a>
+                </div>
+              </span>
+        </nav> 
     </header>
           <!-- /Header Navbar -->
           <!-- Sidebar -->
@@ -69,46 +66,28 @@
     <main>
       <!-- Showroom -->
         <!--<h1>Produtos</h1>-->
-          <div class="container">   
-            <section class="row">
-                <div class="col-md-6 col-sm-6 col-lg-3 produto">
-                    <img class="img-produto" src="img/Produto.jfif" width="200" height="200" alt="Product Thumbnail">
+          <section class="container">   
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-6 produto">
+                    <img class="img-produto" src="img/Produto.jfif" alt="Product Thumbnail">
                     <h4 class="preco-produto">Preço</h4>
                     <div class="parcela-produto">10x de 4,20 com juros</div>
                     <div class="descricao-produto">Descrição do Produto</div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-lg-3 produto">
-                        <img class="img-produto" src="img/Produto.jfif" width="200" height="200" alt="Product Thumbnail">
+                <div class="col-md-4 col-sm-6 col-xs-6 produto">
+                        <img class="img-produto" src="img/Produto.jfif" alt="Product Thumbnail">
                         <h4 class="preco-produto">Preço</h4>
                         <div class="parcela-produto">10x de 4,20 com juros</div>
                         <div class="descricao-produto">Descrição do Produto</div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-lg-3 produto">
-                        <img class="img-produto" src="img/Produto.jfif" width="200" height="200" alt="Product Thumbnail">
+                <div class="col-md-4 col-sm-6 col-xs-6 produto">
+                        <img class="img-produto" src="img/Produto.jfif" alt="Product Thumbnail">
                         <h4 class="preco-produto">Preço</h4>
                         <div class="parcela-produto">10x de 4,20 com juros</div>
                         <div class="descricao-produto">Descrição do Produto</div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-lg-3 produto">
-                        <img class="img-produto" src="img/Produto.jfif" width="200" height="200" alt="Product Thumbnail">
-                        <h4 class="preco-produto">Preço</h4>
-                        <div class="parcela-produto">10x de 4,20 com juros</div>
-                        <div class="descricao-produto">Descrição do Produto</div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-3 produto">
-                        <img class="img-produto" src="img/Produto.jfif" width="200" height="200" alt="Product Thumbnail">
-                        <h4 class="preco-produto">Preço</h4>
-                        <div class="parcela-produto">10x de 4,20 com juros</div>
-                        <div class="descricao-produto">Descrição do Produto</div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-3 produto">
-                        <img class="img-produto" src="img/Produto.jfif" width="200" height="200" alt="Product Thumbnail">
-                        <h4 class="preco-produto">Preço</h4>
-                        <div class="parcela-produto">10x de 4,20 com juros</div>
-                        <div class="descricao-produto">Descrição do Produto</div>
-                </div>
+              </div>
             </section>
-          </div>
     </main>
 </body>
 <footer>
